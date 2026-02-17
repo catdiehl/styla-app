@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "styla-dev",
+    "slug": "styla-dev",
+    "owner": "catdiehl",
+    "version": "0.0.1",
+    "description": "",
+    "orientation": "portrait",
+    "icon": "./assets/styla-orange-logo.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "scheme": "your-firebase-package-id",
+    "splash": {
+      "image": "./assets/styla-orange-logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#F65802"
+    },
+    "ios": {
+      "config": {
+        "googleMapsApiKey": "your-google-maps-api-key"
+      },
+      "supportsTablet": true,
+      "bundleIdentifier": "your-firebase-package-id",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/styla-orange-logo.png",
+        "backgroundColor": "#F65802"
+      },
+      "package": "your-firebase-package-id"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "your-project-id"
+      }
+    },
+    "plugins": [
+      "expo-font",
+      "expo-web-browser",
+      "expo-video"
+    ]
+  }
+}

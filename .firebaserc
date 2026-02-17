@@ -1,0 +1,13 @@
+{
+  "projects": {},
+  "targets": {
+    "styla-backend": {
+      "hosting": {
+        "app": [
+          "styla-backend"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
